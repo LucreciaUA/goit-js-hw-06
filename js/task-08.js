@@ -16,6 +16,11 @@ function check(evt) {
         alert(`Password cannot be empty`)
         
     }
+    const data = {
+        email: email.value,
+        password: password.value,
+    }
 
+    console.log(data)
     evt.currentTarget.reset();
 }
